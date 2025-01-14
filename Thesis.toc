@@ -3,11 +3,11 @@
 \contentsline {chapter}{Supervisor Certificate}{ii}{section*.6}%
 \contentsline {chapter}{Copyright Transfer Certificate}{iii}{section*.9}%
 \contentsline {chapter}{Abstract}{iv}{section*.12}%
-\contentsline {chapter}{Ackowledgment}{v}{section*.14}%
-\contentsline {chapter}{List of Figures}{viii}{section*.18}%
-\contentsline {chapter}{List of Tables}{ix}{section*.19}%
-\contentsline {chapter}{List of Abbreviations}{x}{section*.20}%
-\contentsline {chapter}{List of Symbols}{xi}{section*.22}%
+\contentsline {chapter}{Ackowledgment}{vi}{section*.14}%
+\contentsline {chapter}{List of Figures}{ix}{section*.18}%
+\contentsline {chapter}{List of Tables}{x}{section*.19}%
+\contentsline {chapter}{List of Abbreviations}{xi}{section*.20}%
+\contentsline {chapter}{List of Symbols}{xii}{section*.22}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Introduction}{1}{section.1.1}%
 \contentsline {subsection}{\numberline {1.1.1}pm2}{2}{subsection.1.1.1}%
