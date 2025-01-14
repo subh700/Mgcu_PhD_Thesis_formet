@@ -133,6 +133,7 @@
     Frontmatter/SelfDeclarationCertResScholar, % Declaration certificate
     Frontmatter/CertSupervisor, % Supervisor certificate
     Frontmatter/CopyrightTranCert, % Copyright transfer certificate
+    Frontmatter/Abstract,
     Frontmatter/Ackowledgments, % Acknowledgments
     mainmatter/c1, % Chapter 1
     mainmatter/c2, % Chapter 2
@@ -142,7 +143,11 @@
     mainmatter/c6, % Chapter 6
     backmatter/app1, % Appendix 1
     backmatter/app2, % Appendix 2
-    backmatter/pub % Publications
+    backmatter/pub, % Publications
+    forms/PlagiarismVerificationCertificate,
+    forms/StrictlyConfidential,
+    forms/FormatOfExaminer'sReport,
+    forms/FormatOfExaminer'sReportRevised
 }
 % Cover page
 \begin{document}
@@ -157,6 +162,10 @@
 \include{Frontmatter/CertSupervisor} % Supervisor certificate
 \clearpage \phantomsection \addcontentsline{toc}{chapter}{Copyright Transfer Certificate} % Add to TOC
 \include{Frontmatter/CopyrightTranCert} % Copyright transfer certificate
+
+\clearpage \phantomsection \addcontentsline{toc}{chapter}{Abstract} % Add to TOC
+\include{Frontmatter/Abstract} % Acknowledgments
+
 \clearpage \phantomsection \addcontentsline{toc}{chapter}{Ackowledgment} % Add to TOC
 \include{Frontmatter/Ackowledgments} % Acknowledgments
 \pagestyle{fancy}
@@ -168,6 +177,12 @@
 \clearpage \phantomsection \addcontentsline{toc}{chapter}{List of Abbreviations} % Add to TOC
 \printacronyms[name=List of Abbreviations] % List of abbreviations
 \printnoidxglossary[type=symbols,style=list,title={List of Symbols}] % List of symbols
+
+%----------Forms-----------------------
+\include{forms/PlagiarismVerificationCertificate}
+\include{forms/StrictlyConfidential}
+\include{forms/FormatOfExaminer'sReport}
+\include{forms/FormatOfExaminer'sReportRevised}
 
 \pagenumbering{arabic} % Arabic page numbering for main matter
 \pagestyle{fancy}
