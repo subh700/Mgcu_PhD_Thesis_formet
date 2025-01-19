@@ -29,6 +29,7 @@
 \usepackage{longtable} % Long tables
 \usepackage{datetime} % Custom date formats
 
+
 %\usepackage{emptypage} %removes fancy headers from blank page
 %\usepackage[nottoc]{tocbibind} %adds ref and ind in toc
 %\usepackage[toc,page]{appendix} %creats a new page for appendices title
@@ -36,34 +37,15 @@
 
 
 
-
 % Abbreviations
-\usepackage{acro} % Abbreviations package
-\DeclareAcronym{usa}{ % Declare acronym for USA
-    short=USA, % Short form
-    long=United States of America, % Long form
-}
-\DeclareAcronym{eu}{ % Declare acronym for EU
-    short=EU, % Short form
-    long=European Union, % Long form
-}
-\DeclareAcronym{ussr}{ % Declare acronym for USSR
-    short=USSR, % Short form
-    long=Union of Soviet Socialist Republics, % Long form
-}
+\input{AbbreviationsSymbols/Abbreviations}
 % Call method\ac{usa}
 % Symbols
-\usepackage[symbols,nogroupskip,nonumberlist,sort=use]{glossaries-extra} % Symbols package
-\makenoidxglossaries % Create glossaries
-
-\glsxtrnewsymbol[description={position}]{x}{\ensuremath{x}} % Define symbol for position
-\glsxtrnewsymbol[description={velocity}]{v}{\ensuremath{v}} % Define symbol for velocity
-\glsxtrnewsymbol[description={acceleration}]{a}{\ensuremath{a}} % Define symbol for acceleration
-\glsxtrnewsymbol[description={time}]{t}{\ensuremath{t}} % Define symbol for time
-\glsxtrnewsymbol[description={force}]{F}{\ensuremath{F}} % Define symbol for force
+\input{AbbreviationsSymbols/Symbols}
 % Call method $\gls{F}$
 % Date format
 \newdateformat{monthyear}{\monthname[\THEMONTH], \THEYEAR} % Custom date format
+
 % Page style
 \usepackage{fancyhdr} % Fancy headers and footers
 \pagestyle{fancy} % Set page style to fancy
@@ -71,7 +53,8 @@
 \fancyhead[LE, RO]{\thepage} % Page number in header
 \fancyhead[RE]{\it{\nouppercase{\leftmark}}} % Left header
 \fancyhead[LO]{\it{\nouppercase{\rightmark}}} % Right header
-\fancyfoot[C]{\thepage} % Centered page numbers at the bottom
+%\fancyfoot[C]{\thepage} % Centered page numbers at the bottom
+
 % Nomenclature command
 \newcommand{\nm}[2]{\nomenclature{#1}{#2}} % Define nomenclature command
 % TOC and bibliography names
@@ -121,10 +104,8 @@
 
 %\titleformat{name=\chapter,numberless}[block] {\normalfont\huge\filcenter\bfseries}{}{0pt}{\huge}[\addcontentsline{toc}{chapter}{\chaptertitle}]
 \titleformat{name=\chapter,numberless}[block] {\normalfont\centering \bfseries}{}{0pt}{\fontsize{16pt}{10pt}\selectfont}
-
 \setcounter{secnumdepth}{3}
 \setcounter{tocdepth}{3}
-
 \usepackage{Edit} % Edit package
 \raggedbottom % Ragged bottom
 \includeonly{
@@ -141,6 +122,12 @@
     mainmatter/c4, % Chapter 4
     mainmatter/c5, % Chapter 5
     mainmatter/c6, % Chapter 6
+    mainmatter/C7, % Chapter 1
+    mainmatter/C8, % Chapter 2
+    mainmatter/C9, % Chapter 3
+    mainmatter/C10, % Chapter 4
+    mainmatter/C11, % Chapter 5
+    mainmatter/C12,% CHAPT3ER12
     backmatter/app1, % Appendix 1
     backmatter/app2, % Appendix 2
     backmatter/pub, % Publications
@@ -150,6 +137,8 @@
     forms/FormatOfExaminer'sReportRevised
 }
 % Cover page
+
+
 \begin{document}
 \pagenumbering{roman} % Roman page numbering for front matter
 \pagestyle{plain}
@@ -178,15 +167,12 @@
 \printacronyms[name=List of Abbreviations] % List of abbreviations
 \printnoidxglossary[type=symbols,style=list,title={List of Symbols}] % List of symbols
 
-
 %----------Forms-----------------------
 \include{forms/PlagiarismVerificationCertificate}
 \include{forms/StrictlyConfidential}
 \include{forms/FormatOfExaminer'sReport}
 \include{forms/FormatOfExaminer'sReportRevised}
 
-
-\clearpage
 \pagenumbering{arabic} % Arabic page numbering for main matter
 \pagestyle{fancy}
 \doublespacing
@@ -196,6 +182,12 @@
 \include{mainmatter/c4} % Chapter 4
 \include{mainmatter/c5} % Chapter 5
 \include{mainmatter/c6} % Chapter 6
+\include{mainmatter/C7}% Chapter 1
+\include{mainmatter/C8}% Chapter 2
+\include{mainmatter/C9} % Chapter 3
+\include{mainmatter/C10} % Chapter 4
+\include{mainmatter/C11}% Chapter 5
+\include{mainmatter/C12}% CHAPT3ER12
 % Back matter
 
 \clearpage \phantomsection \addcontentsline{toc}{chapter}{References} % Add to TOC
