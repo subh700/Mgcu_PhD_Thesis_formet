@@ -1,0 +1,45 @@
+\acswitchoff 
+\contentsline {chapter}{Declaration Certificate}{i}{section*.3}%
+\contentsline {chapter}{Supervisor Certificate}{ii}{section*.6}%
+\contentsline {chapter}{Copyright Transfer Certificate}{iii}{section*.9}%
+\contentsline {chapter}{Abstract}{iv}{section*.12}%
+\contentsline {chapter}{Ackowledgment}{v}{section*.14}%
+\contentsline {chapter}{List of Figures}{ix}{section*.19}%
+\contentsline {chapter}{List of Tables}{x}{section*.20}%
+\contentsline {chapter}{List of Abbreviations}{xi}{section*.21}%
+\contentsline {chapter}{List of Symbols}{xii}{section*.23}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Introduction}{1}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}pm2}{2}{subsection.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1.1}pm2}{2}{subsubsection.1.1.1.1}%
+\contentsline {chapter}{\numberline {2}Literature Review}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Literature Review}{3}{section.2.1}%
+\contentsline {chapter}{\numberline {3}Basics Related Roncepts}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Basics Related Roncepts}{5}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Machine Learning}{5}{subsection.3.1.1}%
+\contentsline {chapter}{\numberline {4}Methodology}{6}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Methodology}{6}{section.4.1}%
+\contentsline {chapter}{\numberline {5}Results and Analysis}{9}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Results and Analysis}{9}{section.5.1}%
+\contentsline {chapter}{\numberline {6}Conclusion}{14}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Conclusion}{14}{section.6.1}%
+\contentsline {chapter}{\numberline {7}Introduction}{15}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Introduction}{15}{section.7.1}%
+\contentsline {subsection}{\numberline {7.1.1}pm2}{15}{subsection.7.1.1}%
+\contentsline {subsubsection}{\numberline {7.1.1.1}pm2}{16}{subsubsection.7.1.1.1}%
+\contentsline {chapter}{\numberline {8}Results and Analysis}{17}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Results and Analysis}{17}{section.8.1}%
+\contentsline {chapter}{\numberline {9}Literature Review}{22}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Literature Review}{22}{section.9.1}%
+\contentsline {chapter}{\numberline {10}Basics Related Roncepts}{24}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Basics Related Roncepts}{24}{section.10.1}%
+\contentsline {subsection}{\numberline {10.1.1}Machine Learning}{24}{subsection.10.1.1}%
+\contentsline {chapter}{\numberline {11}Methodology}{25}{chapter.11}%
+\contentsline {section}{\numberline {11.1}Methodology}{25}{section.11.1}%
+\contentsline {chapter}{\numberline {12}Conclusion}{28}{chapter.12}%
+\contentsline {section}{\numberline {12.1}Conclusion}{28}{section.12.1}%
+\contentsline {chapter}{References}{29}{section*.43}%
+\contentsline {chapter}{Appendices}{30}{section*.46}%
+\contentsline {chapter}{\numberline {A}Supporting Information}{31}{appendix.1.A}%
+\contentsline {chapter}{\numberline {B}Supporting Information}{32}{appendix.1.B}%
+\contentsline {chapter}{List of Publications}{33}{appendix*.49}%

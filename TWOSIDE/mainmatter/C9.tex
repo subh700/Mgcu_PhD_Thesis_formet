@@ -1,0 +1,39 @@
+% Chapter Template
+
+\chapter{Literature Review} % Main chapter title
+
+\label{c2} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
+
+%----------------------------------------------------------------------------------------
+%	SECTION 1
+%----------------------------------------------------------------------------------------
+
+\section{Literature Review}
+
+% Please add the following required packages to your document preamble:
+% \usepackage{lscape}
+% \usepackage{longtable}
+% Note: It may be necessary to compile the document several times to get a multi-page table to line up properly
+
+\par Paragraph
+\par Paragraph
+
+Table \ref{table:Lr} REFRENCE OF TABLE
+
+\begin{landscape}
+
+\setlength{\tabcolsep}{3pt}
+
+{\renewcommand{\arraystretch}{1}%
+\begin{longtable}[c]{|p{0.12\linewidth}|p{0.13\linewidth}|p{0.26\linewidth}|p{0.13\linewidth}|p{0.15\linewidth}|p{0.16\linewidth}|}%{|l|l|l|l|l|l|}
+\caption{Summarizing of Related work to pridict $PM_{2.5}$}
+\label{table:Lr}
+\\ \hline
+\textbf{Paper }                      & \textbf{Proposed Model}           & \textbf{Data Source} & \textbf{Forecasting Object}              & \textbf{Benchmark Models }                         & \textbf{Results}
+\\ \hline
+\endhead
+%
+&&&&&\\ \hline
+...&...&...&...&...&...\\ \hline
+\end{longtable}}
+\end{landscape}

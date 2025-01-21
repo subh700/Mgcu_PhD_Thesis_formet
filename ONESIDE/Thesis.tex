@@ -1,0 +1,213 @@
+\documentclass[12pt,a4paper,oneside]{report} % Document class and options
+\usepackage[utf8]{inputenc} % Input encoding
+%\usepackage[english]{babel} % Language package (commented out)
+\usepackage[T1]{fontenc} % Font encoding
+\usepackage{amsmath} % Math package
+\usepackage{amsfonts} % Math fonts
+\usepackage{amssymb} % Math symbols
+\usepackage{makeidx} % Indexing
+\usepackage{graphicx} % Graphics package
+\usepackage[margin=1in]{geometry} % Page margins
+\graphicspath{{images/}} % Path to images
+\usepackage{times} % Times font
+\usepackage{nomencl} % Nomenclature package
+%\usepackage{appendix} % Appendix package (commented out)
+\usepackage[round]{natbib} % Bibliography package
+\usepackage[toc,page]{appendix} % Appendix package with TOC and page options
+\usepackage{setspace} % Line spacing
+\usepackage{color} % Color package
+\usepackage{fancybox} % Fancy boxes
+\usepackage{lipsum} % Lorem ipsum text
+\usepackage{tocloft} % TOC customization
+\usepackage[bookmarks = true]{hyperref} % Hyperlinks
+\usepackage{caption} % Captions
+\usepackage{subcaption} % Sub-captions
+\usepackage{amsmath} % Math package (duplicate)
+\usepackage{enumitem} % Enumerations
+\usepackage{lscape} % Landscape pages
+\usepackage{ulem} % Underlining text
+\usepackage{longtable} % Long tables
+\usepackage{datetime} % Custom date formats
+
+
+%\usepackage{emptypage} %removes fancy headers from blank page
+%\usepackage[nottoc]{tocbibind} %adds ref and ind in toc
+%\usepackage[toc,page]{appendix} %creats a new page for appendices title
+
+
+
+
+% Abbreviations
+\input{AbbreviationsSymbols/Abbreviations}
+% Call method\ac{usa}
+% Symbols
+\input{AbbreviationsSymbols/Symbols}
+% Call method $\gls{F}$
+% Date format
+\newdateformat{monthyear}{\monthname[\THEMONTH], \THEYEAR} % Custom date format
+
+% Page style
+\usepackage{fancyhdr} % Fancy headers and footers
+\pagestyle{fancy} % Set page style to fancy
+\fancyhf{} % Clear all header and footer fields
+\fancyhead[LE, RO]{\thepage} % Page number in header
+\fancyhead[RE]{\it{\nouppercase{\leftmark}}} % Left header
+\fancyhead[LO]{\it{\nouppercase{\rightmark}}} % Right header
+%\fancyfoot[C]{\thepage} % Centered page numbers at the bottom
+
+% Nomenclature command
+\newcommand{\nm}[2]{\nomenclature{#1}{#2}} % Define nomenclature command
+% TOC and bibliography names
+\renewcommand{\contentsname}{Table of Contents} % Rename TOC
+\renewcommand{\bibname}{References} % Rename bibliography
+%\renewcommand{\nomname}{List of Abbreviations}
+% Document metadata
+\author{SUBHAM KUMAR} % Author name
+\title{PHD THESIS} % Title
+% Margin settings
+\geometry{
+    paper=a4paper, % A4 paper size
+    left=35mm, % Left margin
+    right=25mm, % Right margin
+    top=25mm, % Top margin
+    bottom=25mm, % Bottom margin
+    bindingoffset=5mm % Binding offset
+}
+% Chapter/section headings
+\usepackage{sectsty} % Section styling
+% Avoid redefining \chapterfont if it's already defined
+\providecommand{\chapterfont}{\relax}
+\providecommand{\sectionfont}{\relax}
+\providecommand{\subsectionfont}{\relax}
+\providecommand{\subsubsectionfont}{\relax}
+\chapterfont{\fontsize{16pt}{18pt}\selectfont\bfseries} % Chapter number
+\sectionfont{\fontsize{14pt}{16pt}\selectfont\bfseries} % Chapter title heads
+\subsectionfont{\fontsize{12pt}{14pt}\selectfont\bfseries} % Section headings
+\subsubsectionfont{\fontsize{12pt}{14pt}\selectfont\bfseries} % Subsection headings
+% Additional packages
+\usepackage{ragged2e} % Ragged text
+\usepackage{lscape} % Landscape pages
+\usepackage{booktabs} % Booktabs for tables
+\usepackage{graphicx} % Graphics package
+\usepackage{float} % Floating objects
+
+
+
+\usepackage{titlesec} % Required for \titleformat
+% Customize chapter heading format 
+\titleformat{\chapter}[display] 
+{\normalfont\bfseries  \fontsize{18pt}{20pt}\selectfont} % Text format for the chapter heading 
+{\centering Chapter \thechapter} % Format for the chapter number 
+{20pt} % Space between number and title 
+{\fontsize{16pt}{20pt}\selectfont}% Font size for the chapter title
+%\usepackage{quotchap}
+
+%\titleformat{name=\chapter,numberless}[block] {\normalfont\huge\filcenter\bfseries}{}{0pt}{\huge}[\addcontentsline{toc}{chapter}{\chaptertitle}]
+\titleformat{name=\chapter,numberless}[block] {\normalfont\centering \bfseries}{}{0pt}{\fontsize{16pt}{10pt}\selectfont}
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+\usepackage{Edit} % Edit package
+\raggedbottom % Ragged bottom
+\includeonly{
+    Frontmatter/Cover, % Cover page
+    Frontmatter/InnerCover, % Inner cover page
+    Frontmatter/SelfDeclarationCertResScholar, % Declaration certificate
+    Frontmatter/CertSupervisor, % Supervisor certificate
+    Frontmatter/CopyrightTranCert, % Copyright transfer certificate
+    Frontmatter/Abstract,
+    Frontmatter/Ackowledgments, % Acknowledgments
+    Frontmatter/dedication,
+    mainmatter/c1, % Chapter 1
+    mainmatter/c2, % Chapter 2
+    mainmatter/c3, % Chapter 3
+    mainmatter/c4, % Chapter 4
+    mainmatter/c5, % Chapter 5
+    mainmatter/c6, % Chapter 6
+    mainmatter/C7, % Chapter 1
+    mainmatter/C8, % Chapter 2
+    mainmatter/C9, % Chapter 3
+    mainmatter/C10, % Chapter 4
+    mainmatter/C11, % Chapter 5
+    mainmatter/C12,% CHAPT3ER12
+    backmatter/app1, % Appendix 1
+    backmatter/app2, % Appendix 2
+    backmatter/pub, % Publications
+    forms/PlagiarismVerificationCertificate,
+    forms/StrictlyConfidential,
+    forms/FormatOfExaminer'sReport,
+    forms/FormatOfExaminer'sReportRevised
+}
+% Cover page
+
+
+\begin{document}
+\pagenumbering{roman} % Roman page numbering for front matter
+\pagestyle{plain}
+\onehalfspacing % Front matter
+
+\include{Frontmatter/Cover} % Cover page
+\include{Frontmatter/InnerCover} % Inner cover page
+\clearpage \phantomsection \addcontentsline{toc}{chapter}{Declaration Certificate} % Add to TOC
+\include{Frontmatter/SelfDeclarationCertResScholar} % Declaration certificate
+\clearpage \phantomsection \addcontentsline{toc}{chapter}{Supervisor Certificate} % Add to TOC
+\include{Frontmatter/CertSupervisor} % Supervisor certificate
+\clearpage \phantomsection \addcontentsline{toc}{chapter}{Copyright Transfer Certificate} % Add to TOC
+\include{Frontmatter/CopyrightTranCert} % Copyright transfer certificate
+
+\clearpage \phantomsection \addcontentsline{toc}{chapter}{Abstract} % Add to TOC
+\include{Frontmatter/Abstract} % Acknowledgments
+
+\clearpage \phantomsection \addcontentsline{toc}{chapter}{Ackowledgment} % Add to TOC
+\include{Frontmatter/Ackowledgments} % Acknowledgments
+\include{Frontmatter/dedication}
+\pagestyle{fancy}
+\clearpage \phantomsection \tableofcontents % Table of contents
+\clearpage \phantomsection \addcontentsline{toc}{chapter}{List of Figures} % Add to TOC
+\listoffigures % List of figures
+\clearpage \phantomsection \addcontentsline{toc}{chapter}{List of Tables} % Add to TOC
+\listoftables % List of tables
+\clearpage \phantomsection \addcontentsline{toc}{chapter}{List of Abbreviations} % Add to TOC
+\printacronyms[name=List of Abbreviations] % List of abbreviations
+\printnoidxglossary[type=symbols,style=list,title={List of Symbols}] % List of symbols
+
+%----------Forms-----------------------
+\include{forms/PlagiarismVerificationCertificate}
+\include{forms/StrictlyConfidential}
+\include{forms/FormatOfExaminer'sReport}
+\include{forms/FormatOfExaminer'sReportRevised}
+
+\pagenumbering{arabic} % Arabic page numbering for main matter
+\pagestyle{fancy}
+\doublespacing
+\include{mainmatter/c1} % Chapter 1
+\include{mainmatter/c2} % Chapter 2
+\include{mainmatter/c3} % Chapter 3
+\include{mainmatter/c4} % Chapter 4
+\include{mainmatter/c5} % Chapter 5
+\include{mainmatter/c6} % Chapter 6
+\include{mainmatter/C7}% Chapter 1
+\include{mainmatter/C8}% Chapter 2
+\include{mainmatter/C9} % Chapter 3
+\include{mainmatter/C10} % Chapter 4
+\include{mainmatter/C11}% Chapter 5
+\include{mainmatter/C12}% CHAPT3ER12
+% Back matter
+
+\clearpage \phantomsection \addcontentsline{toc}{chapter}{References} % Add to TOC
+\bibliographystyle{plainnat} % Bibliography style
+\bibliography{backmatter/mybib} % Bibliography file
+
+
+\clearpage
+\phantomsection
+\onehalfspacing
+\begin{appendices} 
+\include{backmatter/app1} % Appendix 1 
+\include{backmatter/app2} % Appendix 2 
+\end{appendices} 
+\include{backmatter/pub} % Publications 
+
+
+
+
+\end{document}

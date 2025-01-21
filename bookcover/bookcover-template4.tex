@@ -1,0 +1,113 @@
+\documentclass[
+    coverwidth=210mm,  % Set the cover width to 210 mm
+    coverheight=297mm,  % Set the cover height to 297 mm
+    spinewidth=15mm,  % Set the spine width to 15 mm
+    markcolor=gold,  % Set the mark color to gold
+]{bookcover}
+
+% Required packages
+\usepackage[latin]{babel}  % Language support
+\usepackage{graphicx} % For including graphics
+\usepackage{amsmath} % For advanced math
+\usepackage{caption} % For customizing captions
+\usepackage{xcolor} % For color options
+\usepackage{geometry} % For page layout
+\usepackage{ragged2e} % For ragged text
+\usepackage{everypage} % For styles applied to every page
+\usepackage{lipsum,microtype,GS1,qrcode} % Other necessary packages
+\usepackage{tabularx} % For flexible tables
+\usepackage{tikz}  % For creating graphics and diagrams
+
+% Define custom colors
+\definecolor{gold}{rgb}{1.0, 0.84, 0.0}  % Define the color gold
+\definecolor{brown}{rgb}{.5, 0, 0}  % Define the color brown
+
+% Apply gold color to all text
+\AddEverypageHook{%
+  \color{gold}%
+}
+\usepackage{../ONESIDE/Edit}  % Include additional custom edits
+
+\begin{document}
+
+\begin{bookcover}
+
+% Front cover
+\bookcovercomponent{color}{bg whole}{
+    top color=brown, bottom color=brown  % Set the background gradient from top to bottom as brown
+}
+
+\bookcovercomponent{normal}{front}[22mm,40mm,22mm,40mm]{
+    \centering
+% TITLE OF THE THESIS
+{\fontfamily{pbk}\selectfont\textbf{\fontsize{18pt}{20pt}\selectfont \textcolor{gold}{\MakeUppercase \Titel}}}\\[1cm]  % Set the title of the thesis in uppercase with gold color
+
+% University Logo (replace 'university_logo.png' with your logo file)
+\includegraphics[width=0.055\textwidth]{mgcu}\\[.75cm]  % Include the university logo
+
+% Thesis submitted in partial fulfilment
+{\fontsize{14}{16}\selectfont \textcolor{gold}{Thesis submitted in partial fulfilment}}\\  % Text for thesis submission
+{\fontsize{14}{16}\selectfont \textcolor{gold}{for the Award of}}\\[.5cm]  % Additional text
+% DOCTOR OF PHILOSOPHY
+{\fontsize{16}{18}\selectfont\textbf{\textcolor{gold}{\Digree}}}\\[0.5cm]  % Degree information
+% in
+{\fontsize{14}{16}\selectfont\textcolor{gold}{in}}\\[0.5cm]  % Text 'in'
+% Subject
+{\fontsize{16}{18}\selectfont\textbf{\textcolor{gold}{\subject}}}\\[0.5cm]  % Subject information
+% By
+{\fontsize{14}{16}\selectfont \textcolor{gold}{By}}\\[0.5cm]  % Text 'By'
+{\fontsize{16}{18}\selectfont\textbf{\textcolor{gold}{\Author}}}\\[1cm]  % Author information
+% Under the supervision of
+{\fontsize{14}{16}\selectfont \textcolor{gold}{Under the supervision of}}\\[0.5cm]  % Text for supervision
+{\fontsize{14}{16}\selectfont\textbf{\textcolor{gold}{\Supervisor}}}\\[1cm]  % Supervisor information
+% DEPARTMENT OF ..
+{\fontsize{14}{16}\selectfont\textbf{\textcolor{gold}{\MakeUppercase \Department}}}\\[0.5cm]  % Department information
+% SCHOOL OF
+{\fontsize{14}{16}\selectfont\textbf{\textcolor{gold}{\MakeUppercase \School}}}\\[1cm]  % School information
+% MAHATMA GANDHI CENTRAL UNIVERSITY
+{\fontsize{14}{16}\selectfont\textbf{\textcolor{gold}{\UniName}}}\\[0.5cm]  % University name
+{\fontsize{14}{16}\selectfont \textcolor{gold}{\UniAddress}}\\[1cm]  % University address
+{\fontsize{14}{16}\selectfont \textcolor{gold}{Submission Date}} \hspace*{\fill} {\fontsize{14}{16}\selectfont \textcolor{gold}{Enrolment Number}}  % Submission date and enrolment number
+}
+
+% Spine
+\bookcovercomponent{center}{spine}{
+    \rotatebox[origin=c]{-90}{  % Rotate the spine text 90 degrees
+        \begin{tikzpicture}
+            % First part: Logo
+            \node[anchor=left,align=center] at (0, .5) {\parbox{5cm}{ \includegraphics[width=0.025\textwidth]{mgcu}}};  % Include the logo
+
+            % Second part: Title
+            \node[anchor=left,align=center] at (17, 0.5) {\parbox{20cm}{\centering \textbf{\fontsize{18pt}{20pt}\selectfont \textcolor{gold}{ \Titel}}}};  % Title in gold
+
+            % Third part: Author and Degree on multiple lines
+            \node[anchor=left, align=center] at (24, 0.5) {\parbox{6cm}{\centering{\fontsize{10}{12}\selectfont\textbf{\textcolor{gold}{\Author}}}\\ {\fontsize{10}{12}\selectfont\textbf{\textcolor{gold}{\Digree}}}}};  % Author and degree information
+        \end{tikzpicture}
+    }
+}
+
+% Back cover
+\bookcovercomponent{normal}{back}[22mm,40mm,22mm,40mm]{
+    %{\centering\large ABSTRACT\\[5mm]}
+    %\lipsum[1-3] % Placeholder text
+}
+
+\bookcovercomponent{normal}{back}[,1cm,,]{
+    \vfill
+    \centering
+    \begin{tikzpicture}
+        % First part: Logo
+        \node[anchor=center,align=center] at (0, .5) {\includegraphics[width=0.045\textwidth]{mgcu}};  % Include the logo
+        
+        % Second part: Title
+        \node[anchor=center,align=center] at (9, 0.5) {\textbf{\fontsize{16pt}{18pt}\selectfont \textcolor{gold}{\UniName}}\\[0.25cm]			{\fontsize{14}{16}\selectfont \textcolor{gold}{A Central University established by an Act of Parliament}}\\
+        {\fontsize{14}{16}\selectfont \textcolor{gold}{\UniAddress}}\\
+        {\fontsize{14}{16}\selectfont \textcolor{gold}{www.mgcub.ac.in}}};  % University name, address, and website
+    \end{tikzpicture}
+}
+
+%\bookcovercomponent{ruler}{whole}{,,} % Check dimensions
+
+\end{bookcover}
+
+\end{document}
