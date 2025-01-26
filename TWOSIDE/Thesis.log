@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.18)  22 JAN 2025 00:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.18)  26 JAN 2025 19:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1089,11 +1089,12 @@ Package pdftex.def Info: images/mgcu.png  used on input line 7.
 
 
 {C:/Users/vp123/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Program Fi
-les/MiKTeX/fonts/enc/dvips/base/8r.enc} <./images/mgcu.png>])
+les/MiKTeX/fonts/enc/dvips/base/8r.enc} <./images/mgcu.png>]
+
+[2])
 \openout2 = `Frontmatter/InnerCover.aux'.
 
-
-(Frontmatter/InnerCover.tex
+ (Frontmatter/InnerCover.tex
 File: images/mgcu.png Graphic file (type png)
 <use images/mgcu.png>
 Package pdftex.def Info: images/mgcu.png  used on input line 7.
@@ -1105,12 +1106,20 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
+l.31 
+      [1
+
+
+
+]
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.ii}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
 l.60 \end{titlepage}
-                     [1
-
-
-
-])
+                     [2])
 \openout2 = `Frontmatter/SelfDeclarationCertResScholar.aux'.
 
  (Frontmatter/SelfDeclarationCertResScholar.tex)
@@ -1120,7 +1129,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.151 ...rontmatter/SelfDeclarationCertResScholar}
+l.152 ...rontmatter/SelfDeclarationCertResScholar}
                                                    % Declaration certificate
 [1
 
@@ -1133,7 +1142,13 @@ l.151 ...rontmatter/SelfDeclarationCertResScholar}
 
  (Frontmatter/CertSupervisor.tex)
 
-[2
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.ii}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.154 \include{Frontmatter/CertSupervisor}
+                                           % Supervisor certificate [2
 
 
 
@@ -1142,7 +1157,8 @@ l.151 ...rontmatter/SelfDeclarationCertResScholar}
 ]
 \openout2 = `Frontmatter/CopyrightTranCert.aux'.
 
- (Frontmatter/CopyrightTranCert.tex
+
+(Frontmatter/CopyrightTranCert.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
  []
@@ -1169,7 +1185,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--5
 ]
 \openout2 = `Frontmatter/Ackowledgments.aux'.
 
- (Frontmatter/Ackowledgments.tex)
+ (Frontmatter/Ackowledgments.tex
 
 [5
 
@@ -1177,23 +1193,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
 
 
-]
+])
+
+[6]
 \openout2 = `Frontmatter/dedication.aux'.
 
  (Frontmatter/dedication.tex)
 
-[6
+[7
 
 
 
 
 ] (Thesis.toc
 
-[7
+[8
 
 
 
-])
+]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[9])
 \tf@toc=\write5
 \openout5 = `Thesis.toc'.
 
@@ -1206,13 +1233,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[8] (Thesis.lof)
+[10] (Thesis.lof)
 \tf@lof=\write6
 \openout6 = `Thesis.lof'.
 
 
 
-[9
+[11
 
 ] (Thesis.lot)
 \tf@lot=\write7
@@ -1220,16 +1247,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 
-[10
-
-]
-
-[11
-
-
-]
-
 [12
+
+]
+
+[13
+
+
+]
+
+[14
 
 
 ]
@@ -1237,7 +1264,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
  (forms/PlagiarismVerificationCertificate.tex)
 
-[13
+[15
 
 
 
@@ -1276,7 +1303,7 @@ Overfull \hbox (0.74695pt too wide) in paragraph at lines 37--37
 
 )
 
-[14
+[16
 
 
 
@@ -1286,7 +1313,7 @@ Overfull \hbox (0.74695pt too wide) in paragraph at lines 37--37
 
  (forms/FormatOfExaminer'sReport.tex)
 
-[15
+[17
 
 
 
@@ -1296,7 +1323,7 @@ Overfull \hbox (0.74695pt too wide) in paragraph at lines 37--37
 
  (forms/FormatOfExaminer'sReportRevised.tex)
 
-[16
+[18
 
 
 
@@ -1706,22 +1733,13 @@ Chapter 7.
 
 
 ]
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[16]
 \openout2 = `mainmatter/C8.aux'.
 
  (mainmatter/C8.tex
 Chapter 8.
 
 
-[17
+[16
 
 
 
@@ -1778,7 +1796,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[18
+[17
 
 ]
 
@@ -1789,7 +1807,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[19]
+[18]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1798,7 +1816,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[20
+[19
 
 ]
 File: images/mgcu.png Graphic file (type png)
@@ -1814,14 +1832,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[21]
+[20]
 \openout2 = `mainmatter/C9.aux'.
 
  (mainmatter/C9.tex
 Chapter 9.
 
 
-[22
+[21
 
 
 
@@ -1850,7 +1868,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[23
+[22
 
 ])
 \openout2 = `mainmatter/C10.aux'.
@@ -1859,7 +1877,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 Chapter 10.
 )
 
-[24
+[23
 
 
 
@@ -1872,7 +1890,7 @@ Chapter 10.
 Chapter 11.
 
 
-[25
+[24
 
 
 
@@ -2059,7 +2077,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[26])
+[25])
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2068,28 +2086,29 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[27]
+[26]
 \openout2 = `mainmatter/C12.aux'.
 
  (mainmatter/C12.tex
 Chapter 12.
 )
 
-[28
+[27
 
 
 
 
 ] (Thesis.bbl)
 
-[29
+[28
+
 
 
 
 
 ]
 
-[30
+[29
 
 
 
@@ -2104,7 +2123,7 @@ Package pdftex.def Info: images/mgcu.png  used on input line 6.
 (pdftex.def)             Requested size: 206.28249pt x 235.85739pt.
 )
 
-[31
+[30
 
 
 ]
@@ -2118,7 +2137,7 @@ Package pdftex.def Info: images/mgcu.png  used on input line 6.
 (pdftex.def)             Requested size: 206.28249pt x 235.85739pt.
 )
 
-[32
+[31
 
 
 
@@ -2160,7 +2179,7 @@ Package pdftex.def Info: images/mgcu.png  used on input line 6.
 
  (backmatter/pub.tex)
 
-[33
+[32
 
 
 
@@ -2190,16 +2209,16 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: A54EDEBFA8216A51B102E31F7FCE9E63;5645.
+(rerunfilecheck)             Checksum: 6778B51A1089A7036EB3D185164B63ED;5645.
  ) 
 Here is how much of TeX's memory you used:
- 27966 strings out of 473536
- 531907 string characters out of 5725023
- 1200220 words of memory out of 5000000
- 50424 multiletter control sequences out of 15000+600000
- 610304 words of font info for 105 fonts, out of 8000000 for 9000
+ 27972 strings out of 473536
+ 532011 string characters out of 5725023
+ 1200286 words of memory out of 5000000
+ 50427 multiletter control sequences out of 15000+600000
+ 610307 words of font info for 105 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 115i,14n,117p,2461b,705s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 115i,14n,117p,2461b,707s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Progra
 m Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTe
 X/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1
@@ -2210,9 +2229,9 @@ pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:
 eX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/ti
 mes/utmbi8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/P
 rogram Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Thesis.pdf (51 pages, 496844 bytes).
+Output written on Thesis.pdf (54 pages, 498670 bytes).
 PDF statistics:
- 611 PDF objects out of 1000 (max. 8388607)
- 149 named destinations out of 1000 (max. 500000)
+ 623 PDF objects out of 1000 (max. 8388607)
+ 152 named destinations out of 1000 (max. 500000)
  358 words of extra memory for PDF output out of 10000 (max. 10000000)
 

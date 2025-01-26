@@ -50,7 +50,7 @@ A level-1 auxiliary file: mainmatter/C11.aux
 Reallocating 'name_of_file' (item size: 1) to 19 items.
 A level-1 auxiliary file: mainmatter/C12.aux
 Reallocating 'name_of_file' (item size: 1) to 9 items.
-The style file: plainnat.bst
+The style file: unsrtnat.bst
 Reallocating 'name_of_file' (item size: 1) to 17 items.
 Reallocating 'name_of_file' (item size: 1) to 20 items.
 A level-1 auxiliary file: backmatter/app1.aux
@@ -59,44 +59,44 @@ A level-1 auxiliary file: backmatter/app2.aux
 Reallocating 'name_of_file' (item size: 1) to 19 items.
 A level-1 auxiliary file: backmatter/pub.aux
 Database file #1: backmatter/mybib.bib
-You've used 1 entry,
-            2773 wiz_defined-function locations,
-            627 strings with 5669 characters,
-and the built_in function-call counts, 462 in all, are:
-= -- 39
-> -- 21
+You've used 2 entries,
+            2481 wiz_defined-function locations,
+            592 strings with 5466 characters,
+and the built_in function-call counts, 810 in all, are:
+= -- 63
+> -- 42
 < -- 1
-+ -- 7
-- -- 6
-* -- 34
-:= -- 76
-add.period$ -- 3
-call.type$ -- 1
-change.case$ -- 5
-chr.to.int$ -- 1
++ -- 16
+- -- 12
+* -- 64
+:= -- 137
+add.period$ -- 6
+call.type$ -- 2
+change.case$ -- 4
+chr.to.int$ -- 2
 cite$ -- 2
-duplicate$ -- 20
-empty$ -- 39
-format.name$ -- 9
-if$ -- 92
+duplicate$ -- 38
+empty$ -- 73
+format.name$ -- 16
+if$ -- 165
 int.to.chr$ -- 1
-int.to.str$ -- 1
-missing$ -- 1
-newline$ -- 13
-num.names$ -- 4
-pop$ -- 8
+int.to.str$ -- 3
+missing$ -- 2
+newline$ -- 18
+num.names$ -- 6
+pop$ -- 14
 preamble$ -- 1
-purify$ -- 4
+purify$ -- 2
 quote$ -- 0
-skip$ -- 17
+skip$ -- 23
 stack$ -- 0
-substring$ -- 20
-swap$ -- 1
+substring$ -- 40
+swap$ -- 4
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 11
+type$ -- 14
 warning$ -- 0
-while$ -- 4
+while$ -- 6
 width$ -- 0
-write$ -- 20
+write$ -- 33

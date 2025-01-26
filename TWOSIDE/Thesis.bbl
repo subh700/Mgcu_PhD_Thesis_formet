@@ -1,9 +1,15 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{2}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Sarkar et~al.(2022)Sarkar, Gupta, Keserwani, and Govil]{sarkar2022air}
+Nairita Sarkar, Rajan Gupta, Pankaj~Kumar Keserwani, and Mahesh~Chandra Govil.
+\newblock Air quality index prediction using an effective hybrid deep learning
+  model.
+\newblock \emph{Environmental Pollution}, 315:\penalty0 120404, 2022.
 
 \bibitem[Drewil and Al-Bahadili(2022)]{drewil2022air}
 Ghufran~Isam Drewil and Riyadh~Jabbar Al-Bahadili.

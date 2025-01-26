@@ -12,7 +12,7 @@
 \usepackage{times} % Times font
 \usepackage{nomencl} % Nomenclature package
 %\usepackage{appendix} % Appendix package (commented out)
-\usepackage[round]{natbib} % Bibliography package
+\usepackage[numbers]{natbib} % Bibliography package
 \usepackage[toc,page]{appendix} % Appendix package with TOC and page options
 \usepackage{setspace} % Line spacing
 \usepackage{color} % Color package
@@ -50,10 +50,10 @@
 \usepackage{fancyhdr} % Fancy headers and footers
 \pagestyle{fancy} % Set page style to fancy
 \fancyhf{} % Clear all header and footer fields
-\fancyhead[LE, RO]{\thepage} % Page number in header
+%\fancyhead[LE, RO]{\thepage} % Page number in header
 \fancyhead[RE]{\it{\nouppercase{\leftmark}}} % Left header
 \fancyhead[LO]{\it{\nouppercase{\rightmark}}} % Right header
-%\fancyfoot[C]{\thepage} % Centered page numbers at the bottom
+\fancyfoot[C]{\thepage} % Centered page numbers at the bottom
 
 % Nomenclature command
 \newcommand{\nm}[2]{\nomenclature{#1}{#2}} % Define nomenclature command
@@ -143,8 +143,9 @@
 \begin{document}
 \pagenumbering{roman} % Roman page numbering for front matter
 \pagestyle{plain}
-\onehalfspacing % Front matter
+%\onehalfspacing % Front matter
 \newgeometry{twoside=false, left=35mm, right=25mm, top=25mm, bottom=25mm}% Switch to oneside layout with new geometry 
+\doublespacing  % Set line spacing to 1.5
 \include{Frontmatter/Cover} % Cover page
 \include{Frontmatter/InnerCover} % Inner cover page
 \clearpage \phantomsection \addcontentsline{toc}{chapter}{Declaration Certificate} % Add to TOC
@@ -192,7 +193,10 @@
 % Back matter
 
 \clearpage \phantomsection \addcontentsline{toc}{chapter}{References} % Add to TOC
-\bibliographystyle{plainnat} % Bibliography style
+\bibliographystyle{unsrtnat} % Bibliography style
+\clearpage
+\phantomsection
+\singlespacing
 \bibliography{backmatter/mybib} % Bibliography file
 
 
