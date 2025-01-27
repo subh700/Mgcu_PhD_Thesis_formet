@@ -14,3 +14,12 @@
 
 
 
+% Custom logic to check if the page is odd and add a blank page
+\clearpage
+\afterpage{
+    \ifodd\value{page}
+        \thispagestyle{empty}
+        \mbox{}
+        \newpage
+    \fi
+}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.18)  26 JAN 2025 19:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.18)  28 JAN 2025 00:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -562,6 +562,12 @@ LaTeX Info: Redefining \today on input line 736.
 \dt@a=\toks35
 \dt@b=\toks36
 )
+(C:\Program Files\MiKTeX\tex/latex/tools\afterpage.sty
+Package: afterpage 2023/07/04 v1.08 After-Page Package (DPC)
+\AP@output=\toks37
+\AP@partial=\box67
+\AP@footins=\box68
+)
 (AbbreviationsSymbols/Abbreviations.tex
 (C:\Program Files\MiKTeX\tex/latex/acro\acro.sty
 Package: acro 2022/04/01 v3.8 typeset acronyms and other abbreviations (CN)
@@ -611,8 +617,8 @@ Package: glossaries 2024/11/01 v4.55 (NLCT)
 
 (C:\Program Files\MiKTeX\tex/latex/mfirstuc\mfirstuc.sty
 Package: mfirstuc 2022/10/14 v2.08 (NLCT)
-\@glsmfirst=\toks37
-\@glsmrest=\toks38
+\@glsmfirst=\toks38
+\@glsmrest=\toks39
 )
 (C:\Program Files\MiKTeX\tex/latex/xfor\xfor.sty
 Package: xfor 2009/02/05 v1.05 (NLCT)
@@ -675,7 +681,7 @@ Package: fp-upn 1996/10/21
 (C:\Program Files\MiKTeX\tex/latex/fp\fp-eval.sty
 Package: fp-eval 1995/04/03
 )))
-\@dtl@toks=\toks39
+\@dtl@toks=\toks40
 \@dtl@tmpcount=\count371
 \dtl@tmplength=\skip99
 \dtl@sortresult=\count372
@@ -688,12 +694,12 @@ Package: fp-eval 1995/04/03
 \glossary@main@sortcount=\count378
 \glossary@symbols@sortcount=\count379
 \gls@level=\count380
-\@gls@tmpb=\toks40
+\@gls@tmpb=\toks41
 \gls@tmplen=\skip100
-\glskeylisttok=\toks41
-\glslabeltok=\toks42
-\glsshorttok=\toks43
-\glslongtok=\toks44
+\glskeylisttok=\toks42
+\glslabeltok=\toks43
+\glsshorttok=\toks44
+\glslongtok=\toks45
 
 (C:\Program Files\MiKTeX\tex/latex/glossaries/styles\glossary-hypernav.sty
 Package: glossary-hypernav 2024/11/01 v4.55 (NLCT)
@@ -726,7 +732,7 @@ Package: supertabular 2024/07/20 v4.2c the supertabular environment
 \ST@prevht=\dimen188
 \ST@toadd=\dimen189
 \ST@dimen=\dimen190
-\ST@pbox=\box67
+\ST@pbox=\box69
 ))
 (C:\Program Files\MiKTeX\tex/latex/glossaries/styles\glossary-tree.sty
 Package: glossary-tree 2024/11/01 v4.55 (NLCT)
@@ -735,8 +741,8 @@ Package: glossary-tree 2024/11/01 v4.55 (NLCT)
 \@glsxtr@leveloffset=\count382
 \glsxtrresourcecount=\count383
 \@glsxtrnewgls@inner=\count384
-\glsshortpltok=\toks45
-\glslongpltok=\toks46
+\glsshortpltok=\toks46
+\glslongpltok=\toks47
 
 (C:\Program Files\MiKTeX\tex/latex/glossaries-extra\glossaries-extra-abbrstyles
 .def
@@ -760,7 +766,7 @@ rs
 \f@nch@widthL=\skip119
 \f@nch@widthC=\skip120
 \f@nch@widthR=\skip121
-\@temptokenb=\toks47
+\@temptokenb=\toks48
 )
 (C:\Program Files\MiKTeX\tex/latex/sectsty\sectsty.sty
 Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
@@ -814,19 +820,19 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 (C:\Program Files\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count390
-\float@exts=\toks48
-\float@box=\box68
-\@float@everytoks=\toks49
-\@floatcapt=\box69
+\float@exts=\toks49
+\float@box=\box70
+\@float@everytoks=\toks50
+\@floatcapt=\box71
 )
 (C:\Program Files\MiKTeX\tex/latex/titlesec\titlesec.sty
 Package: titlesec 2025/01/04 v2.17 Sectioning titles
-\ttl@box=\box70
+\ttl@box=\box72
 \beforetitleunit=\skip136
 \aftertitleunit=\skip137
 \ttl@plus=\dimen260
 \ttl@minus=\dimen261
-\ttl@toksa=\toks50
+\ttl@toksa=\toks51
 \titlewidth=\dimen262
 \titlewidthlast=\dimen263
 \titlewidthfirst=\dimen264
@@ -835,9 +841,9 @@ Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \ttlp@side=\count392
  (Edit.sty)
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 143.
+h' as default language. on input line 141.
 LaTeX Font Info:    Trying to load font information for T1+ptm on input line 14
-3.
+1.
 
 (C:\Program Files\MiKTeX\tex/latex/psnfss\t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
@@ -895,38 +901,38 @@ LaTeX Warning: Label `fig: img2' multiply defined.
 ) (backmatter/pub.aux))
 \openout1 = `Thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
 
 (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count393
 \scratchdimen=\dimen265
-\scratchbox=\box71
+\scratchbox=\box73
 \nofMPsegments=\count394
 \nofMParguments=\count395
-\everyMPshowfont=\toks51
+\everyMPshowfont=\toks52
 \MPscratchCnt=\count396
 \MPscratchDim=\dimen266
 \MPnumerator=\count397
 \makeMPintoPDFobject=\count398
-\everyMPtoPDFconversion=\toks52
+\everyMPtoPDFconversion=\toks53
 ) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -970,7 +976,7 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 143.
+Package hyperref Info: Link coloring OFF on input line 141.
 (Thesis.out) (Thesis.out)
 \@outlinefile=\write4
 \openout4 = `Thesis.out'.
@@ -994,7 +1000,7 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 143.
+or `english'. on input line 141.
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -1129,7 +1135,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.152 ...rontmatter/SelfDeclarationCertResScholar}
+l.150 ...rontmatter/SelfDeclarationCertResScholar}
                                                    % Declaration certificate
 [1
 
@@ -1147,7 +1153,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.ii}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.154 \include{Frontmatter/CertSupervisor}
+l.152 \include{Frontmatter/CertSupervisor}
                                            % Supervisor certificate [2
 
 
@@ -1345,7 +1351,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--27
 
 
 
-])
+]
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+
+ []
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1354,15 +1365,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[2]
+[2])
+
+[3
+
+
+]
 \openout2 = `mainmatter/c2.aux'.
 
  (mainmatter/c2.tex
 Chapter 2.
 
 
-[3
-
+[4
 
 
 
@@ -1390,19 +1405,24 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[4
+[5
 
 ])
 \openout2 = `mainmatter/c3.aux'.
 
  (mainmatter/c3.tex
 Chapter 3.
-)
-
-[5
 
 
+[6
 
+
+
+
+
+])
+
+[7
 
 
 ]
@@ -1412,8 +1432,7 @@ Chapter 3.
 Chapter 4.
 
 
-[6
-
+[8
 
 
 
@@ -1599,7 +1618,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[7])
+[9])
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1608,14 +1627,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[8]
+[10]
 \openout2 = `mainmatter/c5.aux'.
 
  (mainmatter/c5.tex
 Chapter 5.
 
 
-[9
+[11
 
 
 
@@ -1664,26 +1683,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--22
 Underfull \hbox (badness 10000) in paragraph at lines 22--22
 \T1/ptm/b/n/12 Bi-
  []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[10
-
-]
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[11]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1695,6 +1694,26 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [12
 
 ]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[13]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[14
+
+]
 File: images/mgcu.png Graphic file (type png)
 <use images/mgcu.png>
 Package pdftex.def Info: images/mgcu.png  used on input line 74.
@@ -1708,14 +1727,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[13]
+[15]
 \openout2 = `mainmatter/c6.aux'.
 
  (mainmatter/c6.tex
 Chapter 6.
 )
 
-[14
+[16
 
 
 
@@ -1727,7 +1746,7 @@ Chapter 6.
 Chapter 7.
 )
 
-[15
+[17
 
 
 
@@ -1739,7 +1758,7 @@ Chapter 7.
 Chapter 8.
 
 
-[16
+[18
 
 
 
@@ -1796,7 +1815,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[17
+[19
 
 ]
 
@@ -1807,7 +1826,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[18]
+[20]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1816,7 +1835,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[19
+[21
 
 ]
 File: images/mgcu.png Graphic file (type png)
@@ -1832,14 +1851,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[20]
+[22]
 \openout2 = `mainmatter/C9.aux'.
 
  (mainmatter/C9.tex
 Chapter 9.
 
 
-[21
+[23
 
 
 
@@ -1868,7 +1887,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[22
+[24
 
 ])
 \openout2 = `mainmatter/C10.aux'.
@@ -1877,7 +1896,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 Chapter 10.
 )
 
-[23
+[25
 
 
 
@@ -1890,7 +1909,7 @@ Chapter 10.
 Chapter 11.
 
 
-[24
+[26
 
 
 
@@ -2077,7 +2096,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[25])
+[27])
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2086,21 +2105,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[26]
+[28]
 \openout2 = `mainmatter/C12.aux'.
 
  (mainmatter/C12.tex
 Chapter 12.
 )
 
-[27
+[29
 
 
 
 
 ] (Thesis.bbl)
 
-[28
+[30
 
 
 
@@ -2108,7 +2127,7 @@ Chapter 12.
 
 ]
 
-[29
+[31
 
 
 
@@ -2123,7 +2142,7 @@ Package pdftex.def Info: images/mgcu.png  used on input line 6.
 (pdftex.def)             Requested size: 206.28249pt x 235.85739pt.
 )
 
-[30
+[32
 
 
 ]
@@ -2137,7 +2156,7 @@ Package pdftex.def Info: images/mgcu.png  used on input line 6.
 (pdftex.def)             Requested size: 206.28249pt x 235.85739pt.
 )
 
-[31
+[33
 
 
 
@@ -2179,7 +2198,7 @@ Package pdftex.def Info: images/mgcu.png  used on input line 6.
 
  (backmatter/pub.tex)
 
-[32
+[34
 
 
 
@@ -2212,11 +2231,11 @@ Package rerunfilecheck Info: File `Thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 6778B51A1089A7036EB3D185164B63ED;5645.
  ) 
 Here is how much of TeX's memory you used:
- 27972 strings out of 473536
- 532011 string characters out of 5725023
- 1200286 words of memory out of 5000000
- 50427 multiletter control sequences out of 15000+600000
- 610307 words of font info for 105 fonts, out of 8000000 for 9000
+ 28005 strings out of 473536
+ 532663 string characters out of 5725023
+ 1200829 words of memory out of 5000000
+ 50455 multiletter control sequences out of 15000+600000
+ 610308 words of font info for 105 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  115i,14n,117p,2461b,707s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Progra
@@ -2229,9 +2248,9 @@ pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:
 eX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/ti
 mes/utmbi8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/P
 rogram Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Thesis.pdf (54 pages, 498670 bytes).
+Output written on Thesis.pdf (56 pages, 499614 bytes).
 PDF statistics:
- 623 PDF objects out of 1000 (max. 8388607)
- 152 named destinations out of 1000 (max. 500000)
+ 632 PDF objects out of 1000 (max. 8388607)
+ 154 named destinations out of 1000 (max. 500000)
  358 words of extra memory for PDF output out of 10000 (max. 10000000)
 
